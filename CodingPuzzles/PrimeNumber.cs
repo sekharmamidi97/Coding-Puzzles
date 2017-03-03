@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodingPuzzles
 {
-    public class FizzBuzz
+    class PrimeNumber
     {
-        
-           
     }
 }
