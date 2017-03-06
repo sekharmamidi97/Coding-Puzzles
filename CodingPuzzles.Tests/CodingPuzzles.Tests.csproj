@@ -57,6 +57,7 @@
     <Compile Include="KataTests\KataFizzBuzzTests.cs" />
     <Compile Include="PrimeNumberTests.cs" />
     <Compile Include="AveragesTests.cs" />
+    <Compile Include="MathTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodingPuzzles\CodingPuzzles.csproj">
