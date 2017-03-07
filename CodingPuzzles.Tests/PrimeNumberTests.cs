@@ -7,8 +7,23 @@ namespace CodingPuzzles.Tests
     public class PrimeNumberTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void PrimeNumber_IsTrue()
         {
+            Assert.IsTrue(PrimeNumber.isPrime(5));
+
         }
+
+        [TestMethod]
+        public void PrimeNumber_IsFalse()
+        {
+            Assert.IsFalse(PrimeNumber.isPrime(15));
+        }
+
+        [TestMethod]
+        public void LargeNumber_IsFalse()
+        {
+            Assert.IsFalse(PrimeNumber.isPrime(547862));
+        }
+
     }
 }
