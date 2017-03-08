@@ -58,6 +58,7 @@
     <Compile Include="PrimeNumberTests.cs" />
     <Compile Include="AveragesTests.cs" />
     <Compile Include="MathTests.cs" />
+    <Compile Include="LeastCommonMultipleTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodingPuzzles\CodingPuzzles.csproj">

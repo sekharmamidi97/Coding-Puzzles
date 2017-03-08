@@ -43,6 +43,7 @@
     <Compile Include="Averages.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Katas\KataFizzBuzz.cs" />
+    <Compile Include="LeastCommonMultiple.cs" />
     <Compile Include="Math.cs" />
     <Compile Include="PrimeNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
