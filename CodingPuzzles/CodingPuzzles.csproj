@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Averages.cs" />
+    <Compile Include="Deduplication.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Katas\KataFizzBuzz.cs" />
     <Compile Include="LeastCommonMultiple.cs" />
