@@ -61,6 +61,7 @@
     <Compile Include="LeastCommonMultipleTests.cs" />
     <Compile Include="DeduplicationTest.cs" />
     <Compile Include="TripleUpTests.cs" />
+    <Compile Include="SortTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodingPuzzles\CodingPuzzles.csproj">
