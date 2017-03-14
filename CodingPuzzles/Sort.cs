@@ -16,13 +16,20 @@ namespace CodingPuzzles
         */
         public int[] ArraySort(int[] nums)
         {
+            int sort = 0;
             for (int i = 0; i < nums.Length; i++)
             {
                 for (int j = i + 1; j < nums.Length; j++)
                 {
-                    nums[i] = nums[i] + nums[j];
-                    nums[j] = nums[i] - nums[j];
-                    nums[i] = nums[i] - nums[j];
+                    if (i != (nums.Length - 1))
+                    {
+                        if (nums[i] > nums[i +1])
+                        {
+                            sort = nums[i];
+                            nums[j] = nums[i + 1];
+                            nums[i + 1] = sort;
+                        }
+                    }
                 }
             }
             return nums;

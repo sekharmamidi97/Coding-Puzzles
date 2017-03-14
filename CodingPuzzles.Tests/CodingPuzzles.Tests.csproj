@@ -62,6 +62,8 @@
     <Compile Include="DeduplicationTest.cs" />
     <Compile Include="TripleUpTests.cs" />
     <Compile Include="SortTest.cs" />
+    <Compile Include="IntersectionTest.cs" />
+    <Compile Include="ClumpsCountTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodingPuzzles\CodingPuzzles.csproj">
