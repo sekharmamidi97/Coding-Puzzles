@@ -21,15 +21,13 @@ namespace CodingPuzzles
             {
                 for (int j = i + 1; j < nums.Length; j++)
                 {
-                    if (i != (nums.Length - 1))
+                    if (nums[i] > nums[j])
                     {
-                        if (nums[i] > nums[i +1])
-                        {
-                            sort = nums[i];
-                            nums[j] = nums[i + 1];
-                            nums[i + 1] = sort;
-                        }
+                        sort = nums[i];
+                        nums[i] = nums[j];
+                        nums[j] = sort;
                     }
+
                 }
             }
             return nums;

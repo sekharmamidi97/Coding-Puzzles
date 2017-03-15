@@ -18,27 +18,28 @@ namespace CodingPuzzles
         */
         public int CountClumps(int[] nums)
         {
-            bool aClump = false;
+            int number = 0;
             int numberOfClumps = 0;
-            for (int i = 0; i < nums.Length-1; i++)
-            {
-                if (aClump)
-                {
-                    if (nums[i] != nums[i + 1])
-                    {
-                        aClump = false;
-                       
-                    }
 
-                    else if(nums[i] == nums[i + 1])
-                    {
-                        aClump = true;
-                        numberOfClumps++;
-                    }
+            while (number < nums.Length)
+            {
+                int numberOne = nums[number];
+                number++;
+                int arrayLength = 1;
+                while (number < nums.Length && nums[number] == numberOne)
+                {
+                    number++;
+                    arrayLength++;
                 }
-                
+                if (arrayLength > 1)
+                {
+                    numberOfClumps++;
+                }
             }
             return numberOfClumps;
         }
+
     }
+
 }
+
