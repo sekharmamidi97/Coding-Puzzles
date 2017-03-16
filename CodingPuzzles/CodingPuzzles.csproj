@@ -46,11 +46,13 @@
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Intersection.cs" />
     <Compile Include="Katas\KataFizzBuzz.cs" />
+    <Compile Include="Katas\KataHelloWorld.cs" />
     <Compile Include="LeastCommonMultiple.cs" />
     <Compile Include="Math.cs" />
     <Compile Include="PrimeNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sort.cs" />
+    <Compile Include="StringMaxBlock.cs" />
     <Compile Include="TripleUp.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
