@@ -48,6 +48,7 @@
     <Compile Include="Katas\KataFizzBuzz.cs" />
     <Compile Include="Katas\KataHelloWorld.cs" />
     <Compile Include="Katas\KataPrimeFactors.cs" />
+    <Compile Include="Katas\KataRomanNumerals.cs" />
     <Compile Include="LeastCommonMultiple.cs" />
     <Compile Include="Math.cs" />
     <Compile Include="PrimeNumber.cs" />
