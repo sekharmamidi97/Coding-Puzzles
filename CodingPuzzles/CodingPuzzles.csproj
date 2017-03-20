@@ -47,6 +47,7 @@
     <Compile Include="Intersection.cs" />
     <Compile Include="Katas\KataFizzBuzz.cs" />
     <Compile Include="Katas\KataHelloWorld.cs" />
+    <Compile Include="Katas\KataNumbersToWords.cs" />
     <Compile Include="Katas\KataPrimeFactors.cs" />
     <Compile Include="Katas\KataRomanCalculator.cs" />
     <Compile Include="Katas\KataRomanNumerals.cs" />
