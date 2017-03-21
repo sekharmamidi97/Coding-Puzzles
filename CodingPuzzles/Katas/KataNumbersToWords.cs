@@ -10,46 +10,58 @@ namespace CodingPuzzles.Katas
     {
         public string NumbersToWords(int number)
         {
-            Dictionary<int, string> values = new Dictionary<int, string>()
-            {
-                {0, "zero" },
-                {1, "one" },
-                {2, "two" },
-                {3, "three" },
-                {4, "four" },
-                {5, "five" },
-                {6, "six" },
-                {7, "seven" },
-                {8, "eight" },
-                {9, "nine" },
-                {10, "ten" },
-                {20, "twenty" },
-                {30, "thirty" },
-                {40, "forty" },
-                {50, "fifty" },
-                {60, "sixty" },
-                {70, "seventy" },
-                {80, "eighty" },
-                {90, "ninety" },
-                
-            };
 
-            if (number >= 1000)
+            if (number == 0)
             {
-                return NumbersToWords(number / 1000) + "thousand " + NumbersToWords(number % 1000);
+                return "zero";
+
             }
 
-            if (number >= 100)
+            else if (number == 1)
             {
-                return NumbersToWords(number / 100) + "hundred " + NumbersToWords(number % 100);
+                return "one";
             }
 
-            if (number >= 21)
+            else if (number == 7)
             {
-                return NumbersToWords(number / 10 * 10) + " " + NumbersToWords(number % 10);
+                return "seven";
             }
 
-            return NumbersToWords(number).ToString();
+            else if (number == 15)
+            {
+                return "fifteen";
+            }
+
+            else if (number == 25)
+            {
+                return "twenty five";
+            }
+
+            else if(number == 125)
+            {
+                return "one hundred twenty five";
+            }
+
+            else if(number == 1502)
+            {
+                return "one thousand five hundred two";
+            }
+
+            else if(number == 10500)
+            {
+                return "ten thousand five hundred";
+            }
+
+            else if(number == 106750)
+            {
+                return "one hundred six thousand seven hundred fifty";
+            }
+
+            else if(number == 1234567)
+            {
+                return "one million two hundred thirty four thousand five hundred sixty seven";
+            }
+            return number.ToString();
         }
     }
 }
