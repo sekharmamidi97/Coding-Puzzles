@@ -70,6 +70,8 @@
     <Compile Include="IntersectionTest.cs" />
     <Compile Include="ClumpsCountTest.cs" />
     <Compile Include="StringMaxBlockTests.cs" />
+    <Compile Include="AnimalGroupNameTests.cs" />
+    <Compile Include="Less50Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodingPuzzles\CodingPuzzles.csproj">

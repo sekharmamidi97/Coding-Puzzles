@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimalGroupName.cs" />
     <Compile Include="Averages.cs" />
     <Compile Include="ClumpsCount.cs" />
     <Compile Include="Deduplication.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="Katas\KataRomanCalculator.cs" />
     <Compile Include="Katas\KataRomanNumerals.cs" />
     <Compile Include="LeastCommonMultiple.cs" />
+    <Compile Include="Less50.cs" />
     <Compile Include="Math.cs" />
     <Compile Include="PrimeNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
